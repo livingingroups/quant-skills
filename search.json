@@ -1,0 +1,222 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Work-in-Progress Quantitative Skills Course",
+    "section": "",
+    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "content.html",
+    "href": "content.html",
+    "title": "Full book outline",
+    "section": "",
+    "text": "-2.1 Frequentist Statistics Review\nWhen content is added, each header should become its own document\nFocus on Bernoulli",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Full book outline</span>"
+    ]
+  },
+  {
+    "objectID": "content.html#working-with-data-in-r",
+    "href": "content.html#working-with-data-in-r",
+    "title": "Full book outline",
+    "section": "-2.2 Working with Data in R",
+    "text": "-2.2 Working with Data in R",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Full book outline</span>"
+    ]
+  },
+  {
+    "objectID": "content.html#test-statistics-p-values",
+    "href": "content.html#test-statistics-p-values",
+    "title": "Full book outline",
+    "section": "-1.1 Test Statistics & P Values",
+    "text": "-1.1 Test Statistics & P Values",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Full book outline</span>"
+    ]
+  },
+  {
+    "objectID": "content.html#command-line-i---working-with-files",
+    "href": "content.html#command-line-i---working-with-files",
+    "title": "Full book outline",
+    "section": "1.1 Command Line I - Working with Files",
+    "text": "1.1 Command Line I - Working with Files",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Full book outline</span>"
+    ]
+  },
+  {
+    "objectID": "content.html#data-structures",
+    "href": "content.html#data-structures",
+    "title": "Full book outline",
+    "section": "1.2 Data Structures",
+    "text": "1.2 Data Structures",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Full book outline</span>"
+    ]
+  },
+  {
+    "objectID": "content.html#bayesian-approach-to-modeling-hypotheses",
+    "href": "content.html#bayesian-approach-to-modeling-hypotheses",
+    "title": "Full book outline",
+    "section": "2.1 Bayesian Approach to Modeling Hypotheses",
+    "text": "2.1 Bayesian Approach to Modeling Hypotheses",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Full book outline</span>"
+    ]
+  },
+  {
+    "objectID": "content.html#control-flow-functions-and-loops",
+    "href": "content.html#control-flow-functions-and-loops",
+    "title": "Full book outline",
+    "section": "2.2 Control Flow, Functions and Loops",
+    "text": "2.2 Control Flow, Functions and Loops",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Full book outline</span>"
+    ]
+  },
+  {
+    "objectID": "content.html#two-sample-poisson-comparison",
+    "href": "content.html#two-sample-poisson-comparison",
+    "title": "Full book outline",
+    "section": "3.1 Two Sample Poisson Comparison",
+    "text": "3.1 Two Sample Poisson Comparison",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Full book outline</span>"
+    ]
+  },
+  {
+    "objectID": "content.html#debugging-tools",
+    "href": "content.html#debugging-tools",
+    "title": "Full book outline",
+    "section": "3.2 Debugging Tools",
+    "text": "3.2 Debugging Tools",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Full book outline</span>"
+    ]
+  },
+  {
+    "objectID": "content.html#univariate-linear-models",
+    "href": "content.html#univariate-linear-models",
+    "title": "Full book outline",
+    "section": "4.1 Univariate Linear Models",
+    "text": "4.1 Univariate Linear Models",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Full book outline</span>"
+    ]
+  },
+  {
+    "objectID": "content.html#writing-readable-code",
+    "href": "content.html#writing-readable-code",
+    "title": "Full book outline",
+    "section": "4.2 Writing Readable Code",
+    "text": "4.2 Writing Readable Code",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Full book outline</span>"
+    ]
+  },
+  {
+    "objectID": "content.html#causal-inference-study-design",
+    "href": "content.html#causal-inference-study-design",
+    "title": "Full book outline",
+    "section": "5.1 Causal Inference, Study Design",
+    "text": "5.1 Causal Inference, Study Design",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Full book outline</span>"
+    ]
+  },
+  {
+    "objectID": "content.html#project-structure",
+    "href": "content.html#project-structure",
+    "title": "Full book outline",
+    "section": "5.2 Project Structure",
+    "text": "5.2 Project Structure",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Full book outline</span>"
+    ]
+  },
+  {
+    "objectID": "content.html#non-gaussian-glmm",
+    "href": "content.html#non-gaussian-glmm",
+    "title": "Full book outline",
+    "section": "6.1 Non Gaussian (GLMM)",
+    "text": "6.1 Non Gaussian (GLMM)",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Full book outline</span>"
+    ]
+  },
+  {
+    "objectID": "content.html#software-valication",
+    "href": "content.html#software-valication",
+    "title": "Full book outline",
+    "section": "6.2 Software Valication",
+    "text": "6.2 Software Valication",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Full book outline</span>"
+    ]
+  },
+  {
+    "objectID": "content.html#heirarchical-models",
+    "href": "content.html#heirarchical-models",
+    "title": "Full book outline",
+    "section": "7.1 Heirarchical Models",
+    "text": "7.1 Heirarchical Models",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Full book outline</span>"
+    ]
+  },
+  {
+    "objectID": "content.html#git-i-tracking-your-changes",
+    "href": "content.html#git-i-tracking-your-changes",
+    "title": "Full book outline",
+    "section": "7.2 Git I (Tracking Your Changes)",
+    "text": "7.2 Git I (Tracking Your Changes)",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Full book outline</span>"
+    ]
+  },
+  {
+    "objectID": "content.html#zips-info-criteria",
+    "href": "content.html#zips-info-criteria",
+    "title": "Full book outline",
+    "section": "8.1 ZIPs, Info Criteria",
+    "text": "8.1 ZIPs, Info Criteria",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Full book outline</span>"
+    ]
+  },
+  {
+    "objectID": "content.html#stats-other-paths",
+    "href": "content.html#stats-other-paths",
+    "title": "Full book outline",
+    "section": "8.2 Stats Other Paths",
+    "text": "8.2 Stats Other Paths",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Full book outline</span>"
+    ]
+  },
+  {
+    "objectID": "content.html#x.1-unsupervised-models",
+    "href": "content.html#x.1-unsupervised-models",
+    "title": "Full book outline",
+    "section": "X.1 Unsupervised Models",
+    "text": "X.1 Unsupervised Models",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Full book outline</span>"
+    ]
+  },
+  {
+    "objectID": "content.html#x.2-stats---other-paths",
+    "href": "content.html#x.2-stats---other-paths",
+    "title": "Full book outline",
+    "section": "X.2 Stats - Other Paths",
+    "text": "X.2 Stats - Other Paths",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Full book outline</span>"
+    ]
+  }
+]
