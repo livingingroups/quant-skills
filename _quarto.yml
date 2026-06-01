@@ -1,0 +1,23 @@
+project:
+  type: book
+
+book:
+  title: "Work-in-Progress Quantitative Skills Course"
+  author: "Katrina Brock & Brendan Barrett"
+  date: "6/1/2026"
+  chapters:
+    - index.qmd
+    - content.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+    number-sections: false
+  pdf:
+    documentclass: scrreprt
+
+
+

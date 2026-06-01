@@ -1,0 +1,51 @@
+# Full book outline
+
+When content is added, each header should become its own document
+
+## -2.1 Frequentist Statistics Review
+
+Focus on Bernoulli
+
+## -2.2 Working with Data in R
+
+## -1.1 Test Statistics & P Values
+
+## 1.1 Command Line I - Working with Files
+
+## 1.2 Data Structures
+
+## 2.1 Bayesian Approach to Modeling Hypotheses
+
+## 2.2 Control Flow, Functions and Loops
+
+## 3.1 Two Sample Poisson Comparison
+
+## 3.2 Debugging Tools
+
+## 4.1 Univariate Linear Models
+
+## 4.2 Writing Readable Code
+
+## 5.1 Causal Inference, Study Design
+
+## 5.2 Project Structure
+
+## 6.1 Non Gaussian (GLMM)
+
+## 6.2 Software Valication
+
+## 7.1 Heirarchical Models
+
+## 7.2 Git I (Tracking Your Changes)
+
+## 8.1 ZIPs, Info Criteria
+
+## 8.2 Stats Other Paths
+
+## X.1 Unsupervised Models
+
+## X.2 Stats - Other Paths
+
+
+
+
