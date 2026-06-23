@@ -1,0 +1,95 @@
+---
+title: "2_freq_bayes_means"
+author: "Brendan Barrett"
+editor: visual
+---
+# Philosopical Approaches to Statistics
+If you have a MS degree, have read a scientific paper, or talk to collaborators, you might have obtained a whiff in the air about Bayesian vs. Frequentist statistics.
+Both are usefull approaches to analyzing data, they can often be use interchangeably and give the same answers, and in some instances one may be more useful than the other either due to computation time or it's ability to fit models for issues related to computation.
+
+Regardless of which approach you use, you should have some undestanding of how your hypotheses and predictions and understanding of you biological system relates to the models you choose.
+If you don't understand what the model is doing, can't interpret its parameters, or it is confounded it doesn't matter how you fit the model.
+Garbage in, garbage out.
+Causal inference is equally valid if using Bayes or Frequentist.
+
+The author (Brendan) prefers to do Bayesian statistics because the types of data and hierarchcail or mixture models his group commonly uses work better with these methods.
+It is also easier to link different models conceptually using a Bayesian framework, and know if and when models have failed.
+However, it is more time consuming, slower, and requires more coding chops.
+
+The Bayesian revolution, in our field at least, has largely been possible do the the advent of accesible, rapid computing.
+Frequentist approaches, are often less computationally hungry, and many were developed by clever people who tried to derive algorithms and methods that could adress niche statistical computational approaches and shortcuts or approximations of tricky data problems (i.e. skew, dispersion, heterskedascityy, small sample sizes).
+While these are still issues that we often need to consider, Bayesian approaches don't require us to come up with clever metrics like our academic ancestors.
+We can be use computation instead of cleverness.
+
+In this course, we will try to have you understand basic statistical models and translate between Bayesian and Frequentist approaches when possible, so you can float between the 2, be an asset to your colelagues, and a better peer reviewer.
+
+# Frequentist Statistics
+The frequenstist approach to data analysis, as defined by Gelman et al is paraphrased: summarizing the information in the data to  get estimaties and predictions that have well -understood statistical properties with low *bias*, and low *variance*.
+It defines the probability of an event occurring (the long-run probability or expectation) as the limit of its relative frequency in infinitely many trials.
+One interpretation of this, is that given infinite data, we hope that out model will attempt estimate the true parameter value with reliability.
+There is an emphasis on a *true parameter value*, and
+how to measure this reliability is up to debate.
+
+Given a test statistic (with well known properties), how does our estimate compare to this test statistic.
+
+## What is a test statistic?
+Lets imagine we are trying to estimate the probability of an apartment having a rodent living in all apartments in Konstanz. 
+We have sampled all 50,068 apartments, and know that the empirical proportion of houses that have rodents is $3524/50068 =$ `r 3524/50068`
+
+```{r}
+no_rodents <- 50068
+rodents <- 3524
+rodent_tally <- c( rep( 1 , rodents ) ,
+              rep(0, no_rodents-rodents) )
+table(rodent_tally)
+```
+
+Now lets say you have to estimate this number, but first your try to do so by visiting 5 houses.
+```{r}
+set.seed(222)
+rodent_samp <- sample(rodent_tally , 5)
+rodent_samp
+```
+### One sample t-test
+Now lets try to estimate a statistic describing the mean of this population using a one sample two-tailed t-test.
+```{r}
+ tea_test <- t.test(rodent_samp)
+print(tea_test)
+```
+So our model estimates a mean probability of a household having rodents as `r tea_test$estimate`.
+Now there are other paremeters we have to interpret.
+
+## p-value
+
+## confidence intervals
+
+So lets try to measure this using a basic linear model or with the function \texttt{lm}, to just estimate the mean of the population.
+So by running a linear model we make a few assumptions  (or tell the model to assume a few things):
+1. The data is normally distributed with a mean $mu$ and a spread or standard deviation $sigma$
+2. The data can take on an value between $-\inf$ and $\inf$
+3. more stuff
+
+So lets run a model that tries to estimate the mean, which we shall call \bar{\alpha}.
+
+We can express this overly fancily using the below mathematical notation:
+
+$ Num_Rodents ~ Normal(\mu , \sigma)$
+$ \mu ~ \bar{\alpha}$
+
+```{r}
+m1 <- lm(rodent_samp~1)
+summary(m1)
+```
+Ok--- so the value `r names(m1$coefficients)[1]` corresponds to our parameter estimate for $\mu$ and $\bar{\alpha}$ in the equation above: `r m1$coefficients[1]`.
+
+# Comparing means of two groups
+Now we are going to simulate data between two groups to see if they differ.
+Imagine we want to compare the litter size of a given rodent in a household as a function of blahhhh.
+```{r}
+rpois(n=100 , lambda=log(2))
+rpois(n=100 , lambda=log(6))
+
+
+```
+## Norms, Arbitrary Cutoffs, Gradients of Evidence
+# Bayesian Statistics

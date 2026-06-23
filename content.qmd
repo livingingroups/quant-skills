@@ -4,8 +4,6 @@ When content is added, each header should become its own document
 
 ## -2.1 Frequentist Statistics Review
 
-Focus on Bernoulli
-
 ## -2.2 Working with Data in R
 
 ## -1.1 Test Statistics & P Values

@@ -4,46 +4,29 @@ author: "Brendan Barrett"
 format: html
 editor: visual
 ---
+
 # What is science
+
 # How is science related to statistics?
-Big world vs. small worlds
-- simplification
-- we sample from a populations and cannot know the truth of the iniverse
-# The four stages of scinetific inquiry
-## Observations
-This is often refered to as Tinbergen's zeroth question.
-Observations start with field observations, observing animals and plants in the wild or captivity, reading the observations of others and 
-## Questions
-- Questions arise from hypotheses and thoughts, and speculate about what are the underlying - reasons for our hypotheses.
-- Refining the scale and detail of the questions is important
-- Theory can be importnat in guiding and refining questions
-## Hypotheses
-- Here is where we (typically) make a causal asserrtion, and propose a plausible and we of reason for the question(s) at stake
-- Having multiple hypotheses is good, informed by our understanding of a natural system
-## Alternative hypotheses
-- are mutually exclusive
-- need to think of what to measure, what experiments need to be done and what models to build to tease these apart
-## Complementary Hypotheses
-- need not be mutually exclusive, but may both be true
-## Null Hypotheses
-- goes back to Popper and Fisher
-- default hypothesis (i.e. no change) or a change near zero
-- never accept the null! although commonly done (talk about popper)
-- discuss historical tradition
+
+Big world vs. small worlds - simplification - we sample from a populations and cannot know the truth of the iniverse \# The four stages of scinetific inquiry \## Observations This is often refered to as Tinbergen's zeroth question. Observations start with field observations, observing animals and plants in the wild or captivity, reading the observations of others and \## Questions - Questions arise from hypotheses and thoughts, and speculate about what are the underlying - reasons for our hypotheses. - Refining the scale and detail of the questions is important - Theory can be importnat in guiding and refining questions \## Hypotheses - Here is where we (typically) make a causal asserrtion, and propose a plausible and we of reason for the question(s) at stake - Having multiple hypotheses is good, informed by our understanding of a natural system \## Alternative hypotheses - are mutually exclusive - need to think of what to measure, what experiments need to be done and what models to build to tease these apart \## Complementary Hypotheses - need not be mutually exclusive, but may both be true \## Null Hypotheses - goes back to Popper and Fisher - default hypothesis (i.e. no change) or a change near zero - never accept the null! although commonly done (talk about popper) - discuss historical tradition
 
 ## Hypothesized data generative mechanism
+
 - verbal reasoning
 - causal diagrams DAGs
 - generative models (linking theory to data)
 
 ## Predictions
-- Conditional on H1, I predict A and B 
+
+- Conditional on H1, I predict A and B
 - Conditional on H2 I predict C
 - Conditional on H3 I predict C and B
 - Multiple hypotheses can correspond to multiple predictions and vice-versa
 - 
 
 # Model buillding in the realm of scientific inquiry
+
 - test simple associations (i.e. means)
 - make inferences based off of complex causal webs
 - fit a mechanistic model as a statistical model to data
@@ -51,12 +34,12 @@ Observations start with field observations, observing animals and plants in the 
 # Understanding Causality and Making Predictions
 
 # What is truth
+
 - p-values
 - credible inervals
 - a continuum of evidence
 - there is no one right way, you have to justify it
-- stats:prbability theory as engineering:physics
-## Quarto
+- stats:prbability theory as engineering:physics \## Quarto
 
 Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
 
